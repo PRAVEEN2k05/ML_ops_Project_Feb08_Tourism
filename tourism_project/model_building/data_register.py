@@ -7,7 +7,7 @@ repo_id = "Praveen-AISRM/Tourism-Package-Prediction"
 repo_type = "dataset"
 
 # Initialize API client
-api = HfApi(token=os.getenv("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"))
+api = HfApi(token=os.getenv("HF_TOKEN"))
 
 # Step 1: Check if the space exists
 try:

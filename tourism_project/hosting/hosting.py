@@ -1,7 +1,7 @@
 from huggingface_hub import HfApi
 import os
 
-api = HfApi(token=os.getenv("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"))
+api = HfApi(token=os.getenv("HF_TOKEN"))
 api.upload_folder(
     folder_path="/content/tourism_project/deployment",     # the local folder containing your files
     repo_id="Praveen-AISRM/Tourism-Package-Prediction",          # the target repo
